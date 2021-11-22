@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.controls {
+    position: fixed;
+    top: .5em;
+    left: .5em;
+    display: flex;
+    flex-direction: row;
+    z-index: 0;
+}
+
+.controls button {
+    margin-right: 5px;
+    opacity: .5;
+}
+
+.controls button:hover {
+    opacity: 1;
+}
