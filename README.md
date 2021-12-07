@@ -12,7 +12,7 @@ Implémentation du jeu de la vie avec WebAssembly + Rust, en réalisant le tutor
 ## Compilation
 
 ```
-wasm-pack
+wasm-pack build
 ```
 
 ## Lancement du serveur webpack en local 
